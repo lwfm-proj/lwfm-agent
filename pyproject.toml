@@ -1,0 +1,16 @@
+[project]
+name = "lwfm-agent"
+version = "0.1.0"
+description = "A2A agent for running lwfm workflows"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lwfm",
+    "mcp[cli]>=1.6.0",
+]
+
+[tool.uv.sources]
+lwfm = { git = "https://github.com/lwfm-proj/lwfm.git", rev = "develop" }
+
+
+
