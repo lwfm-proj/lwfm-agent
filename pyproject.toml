@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-lwfm = { git = "https://github.com/lwfm-proj/lwfm.git", rev = "develop" }
-
+#lwfm = { git = "https://github.com/lwfm-proj/lwfm.git", rev = "develop" }
+lwfm = { path = "../lwfm/" } 
 
 
